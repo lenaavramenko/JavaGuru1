@@ -1,3 +1,4 @@
+/*
 package com.JavaGuru1.lv.lesson5.tvController;
 
 public class TvControllerDemo {
@@ -6,3 +7,4 @@ public class TvControllerDemo {
     TvController tvController = new TvController(tv);
 
 }
+*/
