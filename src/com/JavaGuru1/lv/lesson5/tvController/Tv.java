@@ -1,4 +1,3 @@
-/*
 package com.JavaGuru1.lv.lesson5.tvController;
 
 public class Tv {
@@ -61,7 +60,7 @@ public class Tv {
         this.manufacturer = manufacturer;
     }
 
-    public Tv isOn() {
+    public boolean isOn() {
         return isOn;
     }
 
@@ -86,12 +85,12 @@ public class Tv {
 
     @Override
     public String toString() {
-        return "Tv{" +
-                "currentChanel=" + currentChanel +
-                ", currentVolume=" + currentVolume +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", isOn=" + isOn +
-                '}';
+        return "Tv {" +
+                " Chanel = " + currentChanel +
+                ", Volume = " + currentVolume +
+                ", manufacturer = '" + manufacturer + '\'' +
+                ", isOn = " + isOn +
+                " }";
     }
 }
-*/
+
