@@ -22,6 +22,7 @@ public class ArrayService {
             for (int i : array) {
                 System.out.println(i);
             }
+            System.out.println();
         }
     }
 
