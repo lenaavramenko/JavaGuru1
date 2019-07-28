@@ -23,7 +23,7 @@ abstract class AbstractShape implements Shape {
 
     @Override
     public double getArea() {
-        System.out.println("The area of " + name + " is " + area + " m3");
+        System.out.println("The area of " + color + " " + name + " is " + area + " cm3");
         return area;
     }
 }

@@ -16,7 +16,7 @@ public class Square extends AbstractShape {
 
     @Override
     public String getName() {
-        this.name = "square";
+        this.name = "Square";
         return super.getName();
     }
 
