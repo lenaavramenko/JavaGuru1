@@ -1,13 +1,28 @@
 package com.JavaGuru1.lv.lesson8.shape;
 
 public class Square extends AbstractShape {
+
+    private int side;
+
+    public Square(String color, int side) {
+        super(color);
+        this.side = side;
+    }
+
+    @Override
+    public String getColor() {
+        return super.getColor();
+    }
+
     @Override
     public String getName() {
-        return null;
+        this.name = "square";
+        return super.getName();
     }
 
     @Override
     public double getArea() {
-        return 0;
+        this.area = side * side;
+        return super.getArea();
     }
 }

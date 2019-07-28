@@ -1,13 +1,30 @@
 package com.JavaGuru1.lv.lesson8.shape;
 
 public class Triangle extends AbstractShape {
+
+    private int sideA;
+    private int sideB;
+
+    public Triangle(String color, int sideA, int sideB) {
+        super(color);
+        this.sideA = sideA;
+        this.sideB = sideB;
+    }
+
+    @Override
+    public String getColor() {
+        return super.getColor();
+    }
+
     @Override
     public String getName() {
-        return null;
+        this.name = "triangle";
+        return super.getName();
     }
 
     @Override
     public double getArea() {
-        return 0;
+        this.area = (sideA * sideB) / 2;
+        return super.getArea();
     }
 }
